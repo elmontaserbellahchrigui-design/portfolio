@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | montassar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <a href="index.html" class="logo">montassar.</a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+<section class="contact">
+    <div class="contact-content">
+        <h1>Contact Me</h1>
+        <p class="contact-subtitle">Feel free to reach out to me</p>
+        <div class="contact-container">
+            <form class="contact-form" onsubmit="return validateContactForm()">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="success-message" class="success-message">
+                ✅ Your message has been sent successfully!
+            </p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> elmontaserbellahchrigui@gmail.com</p>
+                <p><strong>Phone:</strong> +216 24 986 676</p>
+                <p><strong>Location:</strong> Sousse, Tunisia</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
